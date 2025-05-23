@@ -1,5 +1,5 @@
 
-import { Zap, Target, Database, Code, Users, TrendingUp } from "lucide-react";
+import { Zap, Target, Database, Code, Users, TrendingUp, Tv } from "lucide-react";
 
 export const Services = () => {
   const services = [
