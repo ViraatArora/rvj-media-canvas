@@ -1,3 +1,4 @@
+import jaswinder from '@/assets/images/jaswinder-arora.png'
 
 export const Leadership = () => {
   return (
@@ -17,7 +18,7 @@ export const Leadership = () => {
                 <div className="text-center">
                   <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-400 shadow-lg">
                     <img 
-                      src="/lovable-uploads/508487c2-f567-48ee-8324-56e4ce6c5105.png"
+                      src={jaswinder}
                       alt="Jaswinder Gandhi Arora"
                       className="w-full h-full object-cover"
                     />
