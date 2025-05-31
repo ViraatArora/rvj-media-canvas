@@ -24,16 +24,21 @@ export const Hero = () => {
               <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Get Started
               </button>
-              <button className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300">
+              <a 
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=jassi@rvjmediatech.com&su=Schedule%20a%20Consultation&body=Hi%20Jassi,%0D%0A%0D%0AI%20would%20like%20to%20schedule%20a%20consultation%20to%20discuss%20FAST%20channel%20development.%0D%0A%0D%0AThank%20you!"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300"
+              >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
           
           <div className="relative">
             <div className="relative bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-8 shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=600&h=400&fit=crop"
+                src="/lovable-uploads/d6fbf287-3bd3-4639-8643-28e5e96864b2.png"
                 alt="Connected TV Technology"
                 className="w-full h-64 object-cover rounded-lg"
               />
