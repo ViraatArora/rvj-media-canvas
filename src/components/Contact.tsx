@@ -66,9 +66,12 @@ export const Contact = () => {
                 <p className="text-gray-300 mb-6">
                   Let's discuss how we can help you launch and scale your FAST channels.
                 </p>
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                <a 
+                  href="mailto:jassi@rvjmediatech.com?subject=Schedule a Consultation&body=Hi Jassi,%0D%0A%0D%0AI would like to schedule a consultation to discuss FAST channel development.%0D%0A%0D%0AThank you!"
+                  className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 text-center"
+                >
                   Schedule a Consultation
-                </button>
+                </a>
               </div>
             </div>
           </div>

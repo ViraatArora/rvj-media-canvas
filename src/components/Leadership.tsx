@@ -17,7 +17,7 @@ export const Leadership = () => {
                 <div className="text-center">
                   <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-400 shadow-lg">
                     <img 
-                      src="/lovable-uploads/95297af2-a4c0-430f-b15d-a74b4c508948.png"
+                      src="/lovable-uploads/508487c2-f567-48ee-8324-56e4ce6c5105.png"
                       alt="Jaswinder Gandhi Arora"
                       className="w-full h-full object-cover"
                     />
