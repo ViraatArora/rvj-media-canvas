@@ -4,9 +4,9 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: '/rvj-media-canvas/',  // Make sure this matches exactly your repository name
+  base: mode === 'development' ? '/' : '/rvj-media-canvas/',
   server: {
-    host: "::",
+    host: "localhost",
     port: 8080,
   },
   plugins: [
