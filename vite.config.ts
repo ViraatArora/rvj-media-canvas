@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === 'development' ? '/' : '/rvj-media-canvas/',
+  base: '/rvj-media-canvas/',
   server: {
     host: "localhost",
     port: 8080,
@@ -17,7 +17,16 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      "@assets": path.resolve(__dirname, "./src/assets"),
     },
   },
+  build: {
+    modulePreload: {
+      polyfill: true
+    },
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      }
+    }
+  }
 }));
