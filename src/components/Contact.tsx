@@ -67,7 +67,7 @@ export const Contact = () => {
                   Let's discuss how we can help you launch and scale your FAST channels.
                 </p>
                 <a 
-                  href="mailto:jassi@rvjmediatech.com?subject=Schedule a Consultation&body=Hi Jassi,%0D%0A%0D%0AI would like to schedule a consultation to discuss FAST channel development.%0D%0A%0D%0AThank you!"
+                  href="mailto:jassi@rvjmediatech.com?subject=Schedule%20a%20Consultation&body=Hi%20Jassi,%0D%0A%0D%0AI%20would%20like%20to%20schedule%20a%20consultation%20to%20discuss%20FAST%20channel%20development.%0D%0A%0D%0AThank%20you!"
                   className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 text-center"
                 >
                   Schedule a Consultation
