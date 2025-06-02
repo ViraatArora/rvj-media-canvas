@@ -22,7 +22,7 @@ function App() {
   return (
     <ErrorBoundary>
       <QueryClientProvider client={queryClient}>
-        <BrowserRouter basename={import.meta.env.DEV ? '/' : '/rvj-media-canvas'}>
+        <BrowserRouter basename="/">
           <TooltipProvider>
             <Toaster />
             <Sonner />
