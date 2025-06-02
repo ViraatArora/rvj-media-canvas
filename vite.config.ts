@@ -5,7 +5,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/rvj-media-canvas/' : '/',
+  base: '/',
   server: {
     host: "localhost",
     port: 8080,
