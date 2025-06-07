@@ -48,13 +48,9 @@ export const Hero = () => {
           <div className="relative">
             <div className="relative bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-8 shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop&crop=center"
-                alt="Connected TV Technology - Laptop and Digital Media"
+                src="/lovable-uploads/20a7ab9e-11bc-459e-b450-c2ed231646d1.png"
+                alt="Connected TV Technology - Modern living room with smart TV displaying streaming interface"
                 className="w-full h-64 object-cover rounded-lg"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop&crop=center";
-                }}
               />
               <div className="absolute -top-4 -right-4 bg-white rounded-full p-4 shadow-lg">
                 <Play className="w-8 h-8 text-blue-600" />
